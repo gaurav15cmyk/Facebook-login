@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login & Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="file:///C:/Users/hp/Desktop/fb%20login/fb%20logo%20-%20Copy.svg      " alt="Facebook Logo">
+        </div>
+
+        <!-- Login Form -->
+        <div class="login-box active">
+            <h2>Login to Facebook</h2>
+            <form id="login-form">
+                <input type="text" id="login-email" placeholder="Email or Phone" required>
+                <input type="password" id="login-password" placeholder="Password" required>
+                <button type="submit">Log In</button>
+                <p class="error-message" id="login-error"></p>
+                <p class="switch" id="go-to-signup">Create New Account</p>
+            </form>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <input type="text" id="signup-name" placeholder="Full Name" required>
+                <input type="text" id="signup-email" placeholder="Email or Phone" required>
+                <input type="password" id="signup-password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+                <p class="switch" id="go-to-login">Already have an account? Log In</p>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
